@@ -28,7 +28,7 @@ class Config(object):
     
     FORCE_SUB = os.environ.get("FORCE_SUB", "") # ⚠️ Required Username without @
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))  # ⚠️ Required
-    FLOOD = int(os.environ.get("FLOOD", '10'))
+    FLOOD = int(os.environ.get("FLOOD", '15'))
     BANNED_USERS = set(int(x) for x in os.environ.get(
         "BANNED_USERS", "1234567890").split())
 
@@ -48,13 +48,11 @@ Tʜɪs Bᴏᴛ Aʟꜱᴏ Sᴜᴘᴘᴏʀᴛs Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ
 
     ABOUT_TXT = """<b>╭───────────⍟
 • ᴍy ɴᴀᴍᴇ : {}
-• ᴘʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/sewxiy>ᴍɪᴋᴇʏ</a>
-• ɴᴇᴛᴡᴏʀᴋ : <a href=https://t.me/otakuflix_network>ᴏᴛᴀᴋᴜғʟɪx</a> 
-• ᴍᴏᴠɪᴇs : <a href=https://t.me/movieflix_original>ᴍᴏᴠɪᴇғʟɪx</a>
-• sᴇʀɪᴇs : <a href=https://t.me/seriesflix_original>sᴇʀɪᴇsғʟɪx</a>
-• ᴀɴɪᴍᴇ: <a href=https://t.me/anime_cruise_netflix>ᴀɴɪᴍᴇ ᴄʀᴜɪsᴇ</a>
-• ᴄʜᴀᴛ ɢʀᴏᴜᴘ: <a href=https://t.me/weebzonex>ᴡᴇᴇʙᴢᴏɴᴇ</a>
-• ᴍʏ ꜱᴇʀᴠᴇʀ : <a href=https://codeflix_bots>ᴠᴘs</a>
+• ᴘʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/Urr_Sanjii>𝐒ᴀɴJɪ 𝐒αᴍᴀ</a>
+• ɴᴇᴛᴡᴏʀᴋ : <a href=https://t.me/Straw_Hat_bots>Straw Hat Bots</a> 
+• ᴀɴɪᴍᴇ: <a href=https://t.me/sagato_anime>Sagato Anime</a>
+• ᴄʜᴀᴛ ɢʀᴏᴜᴘ: <a href=https://t.me/Straw_hat_support>Support</a>
+• ᴍʏ ꜱᴇʀᴠᴇʀ : Heroku
 ╰───────────────⍟ """
 
     HELP_TXT = """
@@ -86,9 +84,9 @@ Exᴀᴍᴩʟᴇ:- <code> /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 
 ☞ Fᴏʀ Exᴀᴍᴘʟᴇ:-
 
-◦ <code> -map 0 -c:s copy -c:a copy -c:v copy -metadata title="Powered By:- @team_netflix" -metadata author="@Codeflix_bots" -metadata:s:s title="Subtitled By :- @Team_netflix" -metadata:s:a title="By :- @team_netflix" -metadata:s:v title="By:- @Codeflix_bots" </code>
+◦ <code> -map 0 -c:s copy -c:a copy -c:v copy -metadata title="Powered By:- @Sagato_anime" -metadata author="@straw_hat_bots" -metadata:s:s title="Subtitled By :- @Sagato_anime" -metadata:s:a title="By :- @Sagato_anime" -metadata:s:v title="By:- @Straw_Hat_bots" </code>
 
-📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @Codeflix_bots
+📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @Straw_Hat_bots
 """
 
     PROGRESS_BAR = """<b>\n

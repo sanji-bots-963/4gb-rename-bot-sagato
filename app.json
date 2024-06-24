@@ -10,7 +10,7 @@
     "Rename",
     "File Rename"
   ],
-  "repository": "https://github.com/Codeflix-Bots/ProRenameBot",
+  "repository": "https://github.com/Ahmed789l/4gb-rename-bot-sagato",
   "success_url": "",
   "stack": "container",
   "env": {
@@ -52,31 +52,31 @@
 
     "FORCE_SUB": {
       "description": "Your force sub channel user name without [@] ",
-      "value": "",
+      "value": "straw_hat_bots",
       "required": true
     },
 
     "ADMIN": {
       "description": "Add Your User ID multiple is use space to split",
-      "value": "",
+      "value": "6727550037 5660025305 7162615398 5961139833",
       "required": true
     },
 
     "LOG_CHANNEL": {
       "description": "Bot Log Sending Channel (just create a private channel and add bot to admin and take channel id to add this variable) ⚠️ id startswith -100 must",
-      "value": "",
+      "value": "-1002031978775",
       "required": true
     },
 
     "DB_URL": {
       "description": "Your Mongo DB URL Obtained From mongodb.com",
-      "value": "",
+      "value": "mongodb+srv://sagatobots00001:sagatobots100@cluster00001.vgdshkw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster00001",
       "required": true
     },
 
     "START_PIC": {
       "description": "Your Bot start cmd Pic from @HK_telegraph_BOT",
-      "value": "",
+      "value": "https://telegra.ph/file/8dbac50ef021f0f0dc4e4.jpg",
       "required": false
     }
   }
