@@ -1,3 +1,4 @@
+git+https://github.com/youesky/pyrogram
 pyrogram==2.0.80
 TgCrypto
 motor
